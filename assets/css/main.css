@@ -1,0 +1,50 @@
+/* Start Variables */
+:root {
+  --main-color: #17a2b8;
+  --page-color: #24353f;
+  --main-font: "Titillium Web", sans-serif;
+  --border-color: #80bdff;
+  --box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+body {
+  font-family: var(--main-font);
+  background-color: var(--page-color);
+}
+.login-dashboard {
+  box-shadow: var(--box-shadow);
+}
+.login-dashboard h1 {
+  color: var(--main-color);
+  font-size: 2.5rem;
+}
+.login-dashboard input::placeholder {
+  color: #ced4da;
+  font-family: var(--main-font);
+}
+.login-dashboard input {
+  caret-color: #fff;
+}
+.login-dashboard input:focus {
+  border-color: var(--border-color);
+  box-shadow: none;
+}
+.btn {
+  border-color: var(--main-color);
+}
+.btn:hover {
+  color: #fff;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.sign-up-anchor {
+  text-decoration: none;
+}
+.sign-up-anchor:hover {
+  text-decoration: underline;
+}
+header {
+  box-shadow: var(--box-shadow);
+}
+.welcome-page {
+  height: calc(100vh - 70px);
+}
